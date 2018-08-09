@@ -1,0 +1,30 @@
+table#main-table {
+  border: 1px solid black;
+  margin: 0 auto;
+}
+
+table#main-table th, td {
+  border: 1px solid black;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.header-control {
+  padding: 10px;
+  text-align: center;
+  width: 100px;
+  height: 40px;
+  word-break: break-word;
+  line-height: 16px;
+}
+
+.companies {
+  text-align: left;
+  padding: 10px;
+}
+
+.best-price {
+  text-align: center;
+}
