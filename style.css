@@ -1,23 +1,48 @@
 table#main-table {
-  border: 1px solid black;
+  <!--border: 1px none #35a7bf;
   margin: 0 auto;
+  border-collapse: unset;
 }
 
-table#main-table th, td {
-  border: 1px solid black;
+table#main-table th {
+  background-color: #7d2345;
+}
+
+table#main-table td {
+  border: 1px outset #fff;
+}
+
+table#main-table td {
+  border-style: outset;
+  border-radius: 5px;
+}
+
+table#main-table tr:hover {
+  background-color: #f5f5f5;
+}
+a:link{
+  color: green;
 }
 
 .center-text {
+  color: #fff;
   text-align: center;
+  size: 12px;
+
 }
 
 .header-control {
+  border-style: none;
   padding: 10px;
   text-align: center;
-  width: 100px;
-  height: 40px;
+  width: 110px;
+  font-size: 12px;
+  height: 60px;
   word-break: break-word;
   line-height: 16px;
+  color: #fff;
+  size: 12px;
+  font-weight: lighter;
 }
 
 .companies {
